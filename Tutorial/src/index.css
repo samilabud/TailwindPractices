@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply flex items-center justify-center w-5 h-3 border-slate-800 shadow-slate-400;
+    background-color: theme("colors.twitter-blue");
+    border-radius: 8px;
+  }
+}
